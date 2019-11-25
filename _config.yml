@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Chen, Guan-Yu
+title: 
 email: r06246010@ntu.edu.tw
 description: >- # this means to ignore newlines until "baseurl:"
   A graduate student of applied mathematical science who has passion in problem solving but has no time..
@@ -59,16 +59,16 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Guan-Yu Chen"
+  name   : "Chen, Guan-Yu"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "A graduate student of applied mathematical science who has passion in problem solving but has no time.."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://willy1222.github.io/myblog/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://twitter.com/"
+      url: "https://www.facebook.com/feath.flying"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/willy1222"
@@ -77,7 +77,7 @@ footer:
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://twitter.com/"
+      url: "https://www.facebook.com/feath.flying"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/willy1222"
