@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 
+locale: zh-TW
+title: Home
 email: r06246010@ntu.edu.tw
 description: >- # this means to ignore newlines until "baseurl:"
-  A graduate student of applied mathematical science who has passion in problem solving but has no time..
+  Mathematics, Musics, Programming, Teaching, and playing..
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: feath.flying
@@ -32,7 +33,8 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: TW # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+words_per_minute: 200
 
 include:
   - _pages
@@ -62,6 +64,7 @@ author:
   name   : "Chen, Guan-Yu"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "A graduate student of applied mathematical science who has passion in problem solving but has no time.."
+  location: "Taipei, Taiwan"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -82,6 +85,13 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/willy1222"
 
+comments:
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: 5 # 5 (default)
+    colorscheme: light # "light" (default), "dark"
+
 defaults:
   # _posts
   - scope:
@@ -101,6 +111,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-1234567-8"
+    anonymize_ip: false # default
 
 category_archive:
   type: liquid
