@@ -92,6 +92,7 @@ comments:
     num_posts: 5 # 5 (default)
     colorscheme: light # "light" (default), "dark"
 
+repository: willy1222/myblog
 comments:
   provider: "utterances"
   utterances:
