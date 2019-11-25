@@ -19,7 +19,7 @@ email: r06246010@ntu.edu.tw
 description: >- # this means to ignore newlines until "baseurl:"
   Mathematics, Musics, Programming, Teaching, and playing..
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://willy1222.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: feath.flying
 github_username:  willy1222
 minimal_mistakes_skin: default
