@@ -92,6 +92,12 @@ comments:
     num_posts: 5 # 5 (default)
     colorscheme: light # "light" (default), "dark"
 
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
 defaults:
   # _posts
   - scope:
