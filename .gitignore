@@ -1,23 +1,4 @@
-<<<<<<< HEAD
 _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
-=======
-*.gem
-*.sublime-project
-*.sublime-workspace
-.bundle
-.DS_Store
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-codekit-config.json
-example/_site
-Gemfile.lock
-node_modules
-npm-debug.log*
-vendor/bundle
->>>>>>> df3da4f7e34f2f98411f03ce95a2b255c69d95e6

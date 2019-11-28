@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-<<<<<<< HEAD
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -36,6 +35,6 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
-=======
-gemspec
->>>>>>> df3da4f7e34f2f98411f03ce95a2b255c69d95e6
+
+# from mmistakes
+# gemspec
