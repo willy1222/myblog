@@ -107,8 +107,6 @@ analytics:
 
 
 # Site Author
-facebook_username: feath.flying
-github_username:  willy1222
 
 author:
   name             : "Chen, Guan-Yu (陳冠羽)"
@@ -116,6 +114,8 @@ author:
   bio              : "A graduate student of applied mathematical science who has passion in problem solving but has no time.."
   location         : "Taipei, Taiwan"
   email            : "r06246010@ntu.edu.tw"
+  facebook_username: feath.flying
+  github_username  : willy1222
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -216,6 +216,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
+  math_engine: mathjax
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
