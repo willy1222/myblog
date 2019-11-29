@@ -9,9 +9,9 @@ tags:
   - standard
 ---
 
-Try inlined math mode here: $F=ma=\frac{mv^2}{r}.$
+Try inlined math mode here: $F=ma=\dfrac{mv^2}{r}.$
 
-And math block is $$\begin{pmatrix} \alpha & 2\\
+And math block is $$\begin{pmatrix} \alpha & 3\\
                                         3  & \chi \end{pmatrix}.$$
 
 All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
